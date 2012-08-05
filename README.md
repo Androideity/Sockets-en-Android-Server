@@ -1,4 +1,4 @@
 Sockets-en-Android-Server
 =========================
 
-Apliacacion Servidor
+Aplicacion Servidor
