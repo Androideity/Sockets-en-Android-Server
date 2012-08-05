@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/gralayout"
+    
+>
+    
+    <ImageView android:layout_height="wrap_content" 
+   		   	  android:src="@drawable/warn"
+		      android:id="@+id/top" 
+		      android:layout_width="fill_parent"		      
+		      android:gravity="top" >    
+    </ImageView>
+           
+    <TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Socket - Cliente"
+    android:gravity="center"
+    android:textSize="18pt"
+    android:textColor="#FFFFFF"
+    android:background="#828181"
+    />
+    
+        
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#D2D511"
+    android:id="@+id/iplayout"
+    >
+    
+ 		 <TextView
+  			android:id="@+id/txtip"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:text="IP:"
+  			android:textColor="#000000"
+  			android:textSize="15pt"
+  			
+  		/>
+  		
+  		<EditText
+  			android:id="@+id/ipinput"
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+  		/>
+  		
+   </LinearLayout>
+  
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#D2D511"
+    android:id="@+id/portlayout"
+   >
+    
+  		<TextView
+  			android:id="@+id/txtport"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:text="Puerto:"
+  			android:textColor="#000000"
+  			android:textSize="15pt"
+  		/>
+  		
+  		<EditText
+  			android:id="@+id/portinput"
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+  		/>
+  		
+   </LinearLayout>   
+   
+ 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#4E514F"
+    android:id="@+id/conneytlay" >
+      
+ 		<Button android:id="@+id/btcnt" 
+ 			android:text=" Conectar"
+ 			android:layout_width="wrap_content"
+ 			android:layout_height="fill_parent" 
+ 			android:gravity="center_vertical" 		
+ 		/> 
+ 		
+        <TextView
+  			android:id="@+id/txtstatus"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:text=".. En espera .."
+  			android:textColor="#FFFFFF"
+  			android:textSize="14pt"
+  			android:gravity="center" 		
+  			
+  		/>
+ 		 <ImageView android:layout_height="wrap_content" 
+   		   	  android:src="@drawable/off"
+		      android:id="@+id/leds" 
+		      android:layout_width="fill_parent"		      
+		      android:gravity="fill" >    
+       </ImageView>
+           
+    	
+</LinearLayout>   	
+
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_txt"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#F8E10E"      
+>  
+		<TextView
+  			android:id="@+id/txtlbl"
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+  			android:text="Enviar texto:"
+  			android:textColor="#000000"  			
+  			android:textSize="14pt"
+  			
+		 />
+
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/txtbox"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#F8E10E"      
+>  
+		<EditText
+  			android:id="@+id/input_txt"
+  			android:layout_width="0dp"
+  			android:layout_height="fill_parent"
+  			android:text="Hola"
+  			android:layout_weight="3"
+  			
+		/>
+			<Button android:id="@+id/sndtxt" 
+ 			android:text="Enviar texto"
+ 			android:layout_width="0dp"
+  			android:layout_height="wrap_content"
+  			android:layout_weight="1"
+  			android:layout_marginBottom="8dp"
+  			
+	/>    
+  		
+</LinearLayout>
+		
+
+</LinearLayout>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bts"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+	> 	
+
+<Button android:id="@+id/bt1" 
+ 			android:text="[1]"
+ 			android:layout_width="0dp"
+  			android:layout_height="fill_parent"
+  			android:layout_weight="1"
+  			
+	/>    
+	
+	<Button android:id="@+id/bt2" 
+ 			android:text="[2]"
+ 			android:layout_width="0dp"
+  			android:layout_height="fill_parent"
+  			android:layout_weight="1"
+  			
+	/>    
+	<Button android:id="@+id/bt3" 
+ 			android:text="[3]"
+ 			android:layout_width="0dp"
+  			android:layout_height="fill_parent"
+  			android:layout_weight="1"
+  			
+	/>    
+	<Button android:id="@+id/bt4" 
+ 			android:text="[4]"
+ 			android:layout_width="0dp"
+  			android:layout_height="fill_parent"
+  			android:layout_weight="1"
+  			
+	/>    
+	
+	</LinearLayout>
+	
+	
+  <ImageView 
+   		   	  android:src="@drawable/warn"
+		      android:id="@+id/footer" 
+		      android:layout_width="fill_parent"	
+		      android:layout_height="wrap_content"		      	     
+		      android:gravity="bottom"    >
+    </ImageView>
+    
+        <Button android:id="@+id/btdisc" 
+ 			android:text="Desconectar"
+		    android:layout_width="fill_parent"	
+  			android:layout_height="wrap_content"
+  			
+  			
+	/>    
+	
+     
+</LinearLayout>
+
+
+
